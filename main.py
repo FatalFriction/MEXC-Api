@@ -161,7 +161,7 @@ async def random_coin(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     app = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()
     app.add_handler(CommandHandler("start", start))
-    app.add_handler(CommandHandler("randomcoin", random_coin))
+    app.add_handler(CommandHandler("screen", random_coin))
     print("🚀 Bot is running...")
     app.run_polling()
 
