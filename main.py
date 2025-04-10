@@ -9,7 +9,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 load_dotenv()
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 ALLOWED_USER_ID = int(os.getenv('ALLOWED_USER_ID'))
-ALLOWED_CHAT_IDS = list(map(int, os.getenv('ALLOWED_CHAT_IDS', '').split(',')))
+ALLOWED_CHAT_IDS = [int(chat_id) for chat_id in os.getenv('ALLOWED_CHAT_IDS', '').split(',') if chat_id.strip().isdigit()]
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (compatible; MyTelegramBot/1.0)'
