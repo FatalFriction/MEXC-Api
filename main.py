@@ -23,7 +23,36 @@ HEADERS = {
 }
 
 tip_pool = [
-    # (your list of tips here, unchanged)
+    "💡 Perhatikan pergerakan volume—lonjakan volume bisa menandakan perubahan tren.",
+    "📉 Jangan terburu-buru membeli saat harga turun—tunggu sinyal pembalikan yang jelas.",
+    "📈 Hindari FOMO—jangan beli hanya karena harga naik cepat.",
+    "🔍 Gunakan indikator teknikal sederhana seperti RSI atau MACD untuk bantu keputusan.",
+    "🧭 Selalu tetapkan target profit dan stop loss sebelum masuk posisi.",
+    "🔄 Gunakan time frame yang sesuai—hindari keputusan hanya dari grafik 1 menit.",
+    "📌 Lihat pola candlestick seperti Doji, Engulfing, atau Hammer untuk deteksi pembalikan.",
+    "📊 Jangan trading berdasarkan emosi—gunakan data dan analisis.",
+    "🕵️ Periksa sentimen pasar di komunitas seperti Twitter atau Telegram.",
+    "⚖️ Diversifikasi—jangan taruh semua modal di satu koin.",
+    "📚 Pelajari support dan resistance—itu dasar penting analisis teknikal.",
+    "⏳ Sabar adalah kunci—tunggu setup terbaik, jangan asal masuk.",
+    "🎯 Gunakan akun demo untuk uji strategi sebelum live trading.",
+    "🧮 Gunakan kalkulator risiko untuk atur besar posisi berdasarkan modal.",
+    "⚠️ Jangan kejar kerugian—lebih baik evaluasi dan tunggu peluang baru.",
+    "📆 Hindari trading saat rilis berita besar kalau belum berpengalaman.",
+    "🧰 Gunakan alat bantu seperti TradingView untuk melihat chart dengan lengkap.",
+    "📌 Catat setiap transaksi agar bisa belajar dari pengalaman.",
+    "🌐 Jangan lupakan faktor global seperti inflasi, suku bunga, dan regulasi.",
+    "🚫 Jangan gunakan uang kebutuhan harian untuk trading.",
+    "🧠 Tetap belajar—pasar selalu berubah dan strategi juga perlu berkembang.",
+    "🧊 Saat market sideways, pertimbangkan strategi scalping atau swing.",
+    "🔐 Simpan aset secara aman di wallet jika tidak digunakan untuk trading.",
+    "📈 Volume tinggi + harga naik bisa tandakan tren kuat.",
+    "🔻 Jangan asal beli coin murah—murah bukan berarti undervalued.",
+    "📎 Pantau berita dari proyek coin yang ditradingkan.",
+    "⚙️ Coba gunakan bot untuk bantu eksekusi strategi otomatis.",
+    "🚧 Jangan terlalu sering ganti strategi, fokus pada yang dipahami dulu.",
+    "📉 Harga koreksi setelah naik tinggi itu normal—hindari panik.",
+    "🌱 Trading bukan jalan cepat kaya—fokus pada konsistensi jangka panjang."
 ]
 
 def is_allowed(update: Update) -> bool:
